@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let nome = input.value.trim().toLowerCase();
     let nivelFalsidade;
 
-    if (nome === "mariani" || "isabela") {
+    if (nome === "mariani") {
       nivelFalsidade = 100;
     } else if (nome === "rafael") {
       nivelFalsidade = 0;
