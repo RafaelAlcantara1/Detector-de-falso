@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
       let nome = input.value.trim().toLowerCase();
       let nivelFalsidade;
   
-      if (nome === "mariani") {
+      if (nome === "mariani" || "isabela") {
         nivelFalsidade = 100;
-      } else if (nome === "rafael") {
+      } else if (nome === "rafael" || "rafael henrique rodrigues de alcantara") {
         nivelFalsidade = 0;
       } else {
         nivelFalsidade = Math.floor(Math.random() * 101);
