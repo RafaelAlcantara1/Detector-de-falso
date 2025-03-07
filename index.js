@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const button = document.getElementById("avaliarButton");
     const resultado = document.getElementById("resultado");
     const progressBar = document.getElementById("progressBar");
+    const imagemFalsiane = document.getElementById("imagemFalsiane");
   
     button.addEventListener("click", function () {
       let nome = input.value.trim().toLowerCase();
@@ -18,5 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
   
       resultado.innerText = `${input.value} tem ${nivelFalsidade}% de falsidade!`;
       progressBar.value = nivelFalsidade;
+  
+      if (nivelFalsidade > 75) {
+        imagemFalsiane.style.display = "block";
+      } else {
+        imagemFalsiane.style.display = "none";
+      }
     });
   });
