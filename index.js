@@ -13,15 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
         nivelFalsidade = 100;
       } else if (nome === "rafael") {
         nivelFalsidade = 0;
-        else (nome === "rafael alcantara") {
-        nivelFalsidade = 0;
-      }
-        else  (nome === "rafael henrique") {
-        nivelFalsidade = 0;
-      }
-        else  (nome === "rafael henrique rodrigues de alcantara") {
-        nivelFalsidade = 0;
-      }
       } else {
         nivelFalsidade = Math.floor(Math.random() * 101);
       }
