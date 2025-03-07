@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let nivelFalsidade;
   
       if (nome === "mariani" || "isabela") {
-        nivelFalsidade = 100;
+        nivelFalsidade = 10000000;
       } else if (nome === "rafael" || "rafael henrique rodrigues de alcantara") {
         nivelFalsidade = 0;
       } else {
