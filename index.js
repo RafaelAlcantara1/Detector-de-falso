@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nivelFalsidade = 100;
       } else if (nome === "rafael") {
         nivelFalsidade = 0;
-          else if (nome === "rafael alcantara") {
+        else if (nome === "rafael alcantara") {
         nivelFalsidade = 0;
       }
         else if (nome === "rafael henrique") {
