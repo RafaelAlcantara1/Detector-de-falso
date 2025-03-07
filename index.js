@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
         nivelFalsidade = 100;
       } else if (nome === "rafael") {
         nivelFalsidade = 0;
-        else if (nome === "rafael alcantara") {
+        else (nome === "rafael alcantara") {
         nivelFalsidade = 0;
       }
-        else if (nome === "rafael henrique") {
+        else  (nome === "rafael henrique") {
         nivelFalsidade = 0;
       }
-        else if (nome === "rafael henrique rodrigues de alcantara") {
+        else  (nome === "rafael henrique rodrigues de alcantara") {
         nivelFalsidade = 0;
       }
       } else {
